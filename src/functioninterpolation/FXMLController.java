@@ -248,7 +248,7 @@ public class FXMLController implements Initializable {
     }
     
     public boolean isNumberInRange(double lowLimit,double x, double highLimit){
-        return lowLimit <= x && x <= highLimit; 
+        return lowLimit < x && x < highLimit; 
     }
             
     @Override
