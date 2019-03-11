@@ -115,9 +115,6 @@ public class FXMLController implements Initializable {
         
         double x = posX/stepX + a;
         double y = -posY/stepY + d;
-        System.out.println("----------------------");
-        System.out.println(posX + " : " + x + " : " + stepX);
-        System.out.println(posY + " : " + y + " : " + stepY);
         
         for (int i = 0; i < n/2; i++){
             
